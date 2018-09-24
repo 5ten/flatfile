@@ -2,6 +2,7 @@ var metalsmith = require('metalsmith');
 var markdown = require('metalsmith-markdown');
 var tojson = require('metalsmith-to-json');
 var published = require('./metalsmith-published.js');
+var assets = require( 'metalsmith-assets-improved' );
 
 metalsmith(__dirname)
   .clean(true)
