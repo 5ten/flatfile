@@ -2,7 +2,11 @@ backend:
   name: github
   repo: 5ten/flatfile
 
-media_folder: uploads
+media_folder: admin/uploads
+public_folder: uploads
+
+editor:
+  preview: false
 
 collections:
   - name: page
