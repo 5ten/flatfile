@@ -106,6 +106,7 @@ collections:
     folder: src/articles
     create: true
     fields:
+      - {label: "Published", name: "published", widget: "boolean", default: true}
       - {name: title, label: Title}
       - {name: body, label: Body, widget: markdown}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
