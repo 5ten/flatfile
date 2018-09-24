@@ -5,6 +5,9 @@
     "deploy": "push-dir --dir=api --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "circular-json": "^0.4.0",
+    "html-to-text": "^3.3.0",
+    "lodash": "^4.14.2",
     "http": "^0.0.0",
     "metalsmith": "^2.3.0",
     "metalsmith-assets-improved": "^1.0.0",

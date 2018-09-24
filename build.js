@@ -1,8 +1,8 @@
 var metalsmith = require('metalsmith');
 var markdown = require('metalsmith-markdown');
-var tojson = require('metalsmith-to-json');
-var published = require('./metalsmith-published.js');
 var assets = require( 'metalsmith-assets-improved' );
+var published = require('./metalsmith-published.js');
+var tojson = require('./metalsmith-to-json.js');
 
 metalsmith(__dirname)
   .clean(true)
@@ -19,8 +19,7 @@ metalsmith(__dirname)
   .use(
     assets({
       src: 'admin',
-      dest: 'admin',
-      replace: 'old'
+      dest: 'admin'
     })
   )  
   .build(function(err){
