@@ -14,7 +14,7 @@ metalsmith(__dirname)
       createIndexes : true,
       magicSlug: true,
       onlyOutputIndex : false,
-      indexPaths : ['attorneys','pages','settings']
+      indexPaths : ['attorneys','pages','settings','articles']
     })
   )  
   .use(
