@@ -7,6 +7,7 @@ var assets = require( 'metalsmith-assets-improved' );
 metalsmith(__dirname)
   .clean(true)
   .destination('./api/')
+  .use(published())
   .use(markdown())
   .use(tojson({
       magicSlug: true,
@@ -15,7 +16,6 @@ metalsmith(__dirname)
       indexPaths : ['attorneys','pages','settings']
     })
   )  
-  .use(published())
   .use(
     assets({
       src: 'admin',
