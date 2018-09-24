@@ -1,0 +1,16 @@
+---
+title: 'Lisa McCabe van Krieken'
+email: 'lvankrieken@folgerlevin.com'
+phone: '415.625.1081'
+education: 'J.D. — 			         			University of California, Berkeley School of Law,			         			1985  			            							        B.A. — 			         			University of California, San Diego,			         			1979'
+practiceAreas: 
+ - Labor & Employment
+
+---
+<div id="colbody">
+<p>Lisa van Krieken is a partner in our Labor &amp; Employment Practice Group. Lisa&#x2019;s employment litigation practice includes Title VII, FEHA, wage and hour, retaliation, discrimination, harassment, wrongful termination, fraud, whistleblower, defamation, WARN Act, and other employment-related disputes in both state and federal courts. She has obtained numerous summary judgment awards and dismissals for clients, as well as victories in the Ninth Circuit Court of Appeals and the California Court of Appeal.</p>
+<p>In the area of traditional labor law, Lisa negotiates collective bargaining agreements for clients with various unions throughout California, has successfully handled dozens of binding arbitrations under union contracts, and has represented clients in proceedings before the National Labor Relations Board, including unit clarification, certification, and unfair labor practice proceedings. She also represents clients in connection with administrative charges filed with state and federal agencies, including the federal Equal Employment Opportunity Commission, California&#x2019;s Department of Fair Employment &amp; Housing, the U.S. Department of Labor, the California Division of Industrial Relations (and DLSE), Cal-OSHA, the Employment Development Department, the Workers&#x2019; Compensation Appeals Board, and local human rights offices.</p>
+<p>Lisa also provides pre-litigation counseling and strategic advice to clients on employment-related issues, reviews client policies and handbooks to ensure legal compliance, and conducts training for clients in all areas of employment law, including sexual and unlawful harassment prevention, the ADA (Americans with Disabilities Act) and FEHA, pregnancy disability leave in California, FMLA and CFRA, proper documentation and employee terminations, privacy issues under California law, retaliation claims, discrimination laws, interviewing guidelines, religious discrimination and reasonable accommodation, appearance guidelines and dress &amp; grooming standards, employee and labor relations, just cause, grievances and arbitrations, federal labor laws and the National Labor Relations Act, and wage and hour updates.</p>
+<p>Lisa received her law degree from the University of California, Berkeley School of Law in 1985. She graduated from the University of California, San Diego, in 1979. She is a member of the California Bar.&#xA0;Lisa has served on the Board of Directors of the Legal Aid Society-Employment Law Center (&#x201C;LAS-ELC&#x201D;) in San Francisco since 1995, is a former Chair, and currently serves on the Executive Committee.</p>
+<p>&#xA0;</p>
+</div>
