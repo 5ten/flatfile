@@ -7,7 +7,7 @@ media_folder: uploads
 collections:
   - name: page
     label: Page
-    folder: pages
+    folder: src/pages
     create: true
     fields:
       - {name: title, label: Title}
@@ -17,7 +17,7 @@ collections:
 
   - name: post
     label: Post
-    folder: posts
+    folder: src/posts
     create: true
     fields:
       - {name: title, label: Title}
