@@ -15,6 +15,13 @@ metalsmith(__dirname)
     })
   )  
   .use(published())
+  .use(
+    assets({
+      src: 'admin',
+      dest: 'admin',
+      replace: 'old'
+    })
+  )  
   .build(function(err){
   if (err) throw err;
 });

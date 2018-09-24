@@ -7,9 +7,11 @@
   "dependencies": {
     "http": "^0.0.0",
     "metalsmith": "^2.3.0",
+    "metalsmith-assets-improved": "^1.0.0",
     "metalsmith-markdown": "^0.2.2",
     "metalsmith-to-json": "git+ssh://git@github.com/xpollen8/metalsmith-to-json.git",
     "metalsmith-watch": "^1.0.3",
+    "moment": "^2.22.2",
     "push-dir": "^0.4.1"
   }
 }
