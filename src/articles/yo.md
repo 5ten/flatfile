@@ -1,4 +1,5 @@
 ---
+published: true
 title: YO
 draft: true
 birthdate: Sep 12th 18
