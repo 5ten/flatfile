@@ -19,7 +19,7 @@ metalsmith(__dirname)
   .use(
     assets({
       src: 'admin',
-      dest: 'admin'
+      dest: ''
     })
   )  
   .build(function(err){
