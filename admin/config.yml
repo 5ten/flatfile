@@ -1,13 +1,13 @@
 backend:
   name: github
-  repo: 5ten/netlify-cms-test
+  repo: 5ten/flatfile
 
-media_folder: files
+media_folder: uploads
 
 collections:
-  - name: post2
-    label: Post2
-    folder: posts2
+  - name: page
+    label: Page
+    folder: pages
     create: true
     fields:
       - {name: title, label: Title}
