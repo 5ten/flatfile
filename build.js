@@ -6,7 +6,7 @@ var tojson = require('./metalsmith-to-json.js');
 
 metalsmith(__dirname)
   .clean(true)
-  .destination('./api/')
+  .destination('./build/')
   .use(published())
   .use(markdown())
   .use(tojson({
@@ -19,7 +19,7 @@ metalsmith(__dirname)
   .use(
     assets({
       src: 'admin',
-      dest: ''
+      dest: 'admin'
     })
   )  
   .build(function(err){
