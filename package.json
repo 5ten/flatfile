@@ -1,8 +1,7 @@
 {
   "scripts": {
     "dev": "node dev.js",
-    "build": "node build.js",
-    "deploy": "push-dir --dir=api --branch=gh-pages --cleanup"
+    "build": "node build.js"
   },
   "dependencies": {
     "circular-json": "^0.4.0",
