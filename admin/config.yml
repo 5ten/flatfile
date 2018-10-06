@@ -2,11 +2,8 @@ backend:
   name: github
   repo: 5ten/flatfile
 
-media_folder: admin/uploads
+media_folder: assets/uploads
 public_folder: uploads
-
-editor:
-  preview: false
 
 collections:
   - name: page
@@ -17,97 +14,15 @@ collections:
       - {name: title, label: Title}
       - {label: "Published", name: "published", widget: "boolean", default: true}
       - {name: body, label: Body, widget: markdown}
+    editor:
+      preview: false      
 
-  - name: post
-    label: Post
-    folder: src/posts
+  - name: kitchensink
+    label: Kitchen Sinks
+    folder: src/kitchensinks
     create: true
-    fields:
-      - {name: title, label: Title}
-      - {name: body, label: Body, widget: markdown}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - label: "Birthdate"
-        name: "birthdate"
-        widget: "date"
-        default: ""
-        format: "MMM Do YY"
-      - label: "Start time"
-        name: "start"
-        widget: "datetime"
-        default: ""
-        format: "LLL"
-      - label: "Manual PDF"
-        name: "manual_pdf"
-        widget: "file"
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - label: "Featured Image"
-        name: "thumbnail"
-        widget: "image"
-        options:
-          media_library:
-            config:
-              publicKey: "demopublickey"
-              multiple: true
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        default: ["news"]     
-      - {label: "Blog post content", name: "body", widget: "markdown"}
-      - label: "Puppy Count"
-        name: "puppies"
-        widget: "number"
-        valueType: "int"
-        min: 1
-        max: 101
-      - label: "Profile"
-        name: "profile"
-        widget: "object"
-        fields:
-          - {label: "Public", name: "public", widget: "boolean", default: true}
-          - {label: "Name", name: "name", widget: "string"}
-          - label: "Birthdate"
-            name: "birthdate"
-            widget: "date"
-            default: ""
-            format: "MM/DD/YYYY"
-          - label: "Address"
-            name: "address"
-            widget: "object"
-            fields: 
-              - {label: "Street Address", name: "street", widget: "string"}
-              - {label: "City", name: "city", widget: "string"}
-              - {label: "Postal Code", name: "post-code", widget: "string"}         
-      - label: "Post Author"
-        name: "author"
-        widget: "relation"
-        collection: "authors"
-        searchFields: ["name", "twitterHandle"]
-        valueField: "name"
-        displayFields: ["twitterHandle", "followerCount"]  
-      - label: "City"
-        name: "airport-code"
-        widget: "select"
-        options:
-          - { label: "Chicago", value: "ORD" }
-          - { label: "Paris", value: "CDG" }
-          - { label: "Tokyo", value: "HND" }
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
-      - label: "Testimonials"
-        name: "testimonials"
-        widget: "list"
-        fields:
-          - {label: Quote, name: quote, widget: string}
-          - label: Author
-            name: author
-            widget: object
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Avatar, name: avatar, widget: image}
-  - name: article
-    label: Article
-    folder: src/articles
-    create: true
+    editor:
+      preview: false      
     fields:
       - {label: "Published", name: "published", widget: "boolean", default: true}
       - {name: title, label: Title}
