@@ -3,6 +3,9 @@ node_js:
     - "10"
 script:
     - node build
+cache:
+    directories:
+        - "node_modules"    
 deploy:
   provider: pages
   skip-cleanup: true
