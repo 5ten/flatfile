@@ -13,7 +13,7 @@ metalsmith(__dirname)
       magicSlug: true,
       onlyOutputIndex : false,
       createIndexes : true,      
-      indexPaths : ['attorneys']
+      indexPaths : ['kitchensink', 'pages']
     })
   )  
   .use(
