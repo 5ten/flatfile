@@ -18,31 +18,35 @@ collections:
       preview: false      
 
   - name: kitchensink
-    label: Kitchen Sinks
-    folder: src/kitchensinks
+    label: Kitchen Sink
+    folder: src/kitchensink
     create: true
     editor:
       preview: false      
     fields:
-      - {label: "Published", name: "published", widget: "boolean", default: true}
-      - {name: title, label: Title}
-      - {name: body, label: Body, widget: markdown}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Published", name: "published", widget: "boolean", default: true, required: false}
+      - {name: title, label: Title, required: false}
+      - {name: body, label: Body, widget: markdown, required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true, required: false}
       - label: "Birthdate"
         name: "birthdate"
         widget: "date"
         default: ""
         format: "MMM Do YY"
+        required: false
       - label: "Start time"
+        required: false
         name: "start"
         widget: "datetime"
         default: ""
         format: "LLL"
       - label: "Manual PDF"
+        required: false
         name: "manual_pdf"
         widget: "file"
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - label: "Featured Image"
+        required: false
         name: "thumbnail"
         widget: "image"
         options:
@@ -51,11 +55,13 @@ collections:
               publicKey: "demopublickey"
               multiple: true
       - label: "Tags"
+        required: false
         name: "tags"
         widget: "list"
         default: ["news"]     
-      - {label: "Blog post content", name: "body", widget: "markdown"}
+      - {label: "Blog post content", name: "body", widget: "markdown", required: false}
       - label: "Puppy Count"
+        required: false
         name: "puppies"
         widget: "number"
         valueType: "int"
@@ -64,22 +70,26 @@ collections:
       - label: "Profile"
         name: "profile"
         widget: "object"
+        required: false
         fields:
-          - {label: "Public", name: "public", widget: "boolean", default: true}
-          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Public", name: "public", widget: "boolean", default: true, required: false}
+          - {label: "Name", name: "name", widget: "string", required: false}
           - label: "Birthdate"
+            required: false
             name: "birthdate"
             widget: "date"
             default: ""
             format: "MM/DD/YYYY"
           - label: "Address"
+            required: false
             name: "address"
             widget: "object"
             fields: 
-              - {label: "Street Address", name: "street", widget: "string"}
-              - {label: "City", name: "city", widget: "string"}
-              - {label: "Postal Code", name: "post-code", widget: "string"}         
+              - {label: "Street Address", name: "street", widget: "string", required: false}
+              - {label: "City", name: "city", widget: "string", required: false}
+              - {label: "Postal Code", name: "post-code", widget: "string", required: false}         
       - label: "Post Author"
+        required: false
         name: "author"
         widget: "relation"
         collection: "authors"
@@ -87,22 +97,24 @@ collections:
         valueField: "name"
         displayFields: ["twitterHandle", "followerCount"]  
       - label: "City"
+        required: false
         name: "airport-code"
         widget: "select"
         options:
           - { label: "Chicago", value: "ORD" }
           - { label: "Paris", value: "CDG" }
           - { label: "Tokyo", value: "HND" }
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Description", name: "description", widget: "text", required: false}
       - label: "Testimonials"
+        required: false
         name: "testimonials"
         widget: "list"
         fields:
-          - {label: Quote, name: quote, widget: string}
+          - {label: Quote, name: quote, widget: string, required: false}
           - label: Author
+            required: false
             name: author
             widget: object
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Avatar, name: avatar, widget: image}
+              - {label: Name, name: name, widget: string, required: false}
+              - {label: Avatar, name: avatar, widget: image, required: false}
