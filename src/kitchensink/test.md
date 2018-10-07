@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: >-
   This content type displays just about all the fields netlify cms offers and is
   unpublished
