@@ -1,6 +1,8 @@
 ---
 published: false
-title: This content type displays just about all the fields netlify cms offers
+title: >-
+  This content type displays just about all the fields netlify cms offers and is
+  unpublished
 draft: true
 birthdate: Oct 26th 18
 start: 'October 6, 2018 12:00 AM'
