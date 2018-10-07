@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: This content type displays just about all the fields netlify cms offers
 draft: true
 birthdate: Oct 26th 18
