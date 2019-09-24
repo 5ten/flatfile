@@ -26,7 +26,7 @@ metalsmith(__dirname)
     )  
   .use(
     assets({
-      src: 'admin',
+      src: 'assets/admin',
       dest: ''
     })
   )  
